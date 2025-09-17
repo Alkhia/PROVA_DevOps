@@ -43,9 +43,11 @@ A arquitetura é composta por três partes:
     - Construir as imagens Docker para o **backend** (NestJS) e **frontend** (React).
     - Levantar os containers e disponibilizar os serviços na sua máquina local.
 
-4. Acesse o frontend no navegador em: [http://localhost:3000](http://localhost:3000)
+4. Acesse o frontend no navegador em: [http://localhost:3000]
 
-5. A API (backend) estará disponível na URL: [http://localhost:5000](http://localhost:5000)
+5. A API (backend) estará disponível na URL: [http://localhost:5000]
+
+6. O banco de dados (PostgreSQL) estará disponível na URL: [http://localhost:4000]
 
 ## Endpoints CRUD
 

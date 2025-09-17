@@ -35,6 +35,8 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: booksdb
+    ports:
+      - "4000:4000"   
     volumes:
       - postgres-data:/var/lib/postgresql/data
     networks:
