@@ -1,7 +1,7 @@
 services:
   api:
     build:
-      context: ../api
+      context: ../api1
     container_name: books-api
     ports:
       - "5000:5000"
